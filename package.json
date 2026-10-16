@@ -1,0 +1,28 @@
+{
+  "name": "pimg",
+  "version": "0.1.0",
+  "description": "portable images & containers (no root required) — Node.js port",
+  "type": "module",
+  "bin": {
+    "pimg": "./bin/pimg.js"
+  },
+  "scripts": {
+    "start": "node ./bin/pimg.js",
+    "test": "vitest run",
+    "build:binary": "node ./scripts/build-binary.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "ink": "^5.2.1",
+    "picocolors": "^1.1.1",
+    "react": "^18.3.1",
+    "string-width": "^7.2.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.2",
+    "postject": "^1.0.0-alpha.6",
+    "vitest": "^3.2.4"
+  }
+}

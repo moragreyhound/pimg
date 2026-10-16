@@ -1,0 +1,12 @@
+{
+  "name": "pimg-plugin-hello",
+  "version": "0.1.0",
+  "description": "Example pimg plugin",
+  "main": "plugin.js",
+  "pimg": {
+    "commands": {
+      "greet": "greet someone (example plugin command)",
+      "sys": "print host platform (example plugin command)"
+    }
+  }
+}
